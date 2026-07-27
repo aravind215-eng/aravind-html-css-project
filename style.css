@@ -29,7 +29,7 @@
     margin: 22px 50px 0px 0px;
 }
 .box3{
-    margin: 20px 50px 0px 0px;
+    margin: 20px 50px 5px 0px;
     border-radius: 5px;
 }
 .box4{
@@ -64,17 +64,20 @@
     margin-top: 2px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     color: white;
 }
 .text2{
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     color: white;
 }
 .title1{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .text3{
     margin-top: 20px;
@@ -90,6 +93,7 @@
     font-size: 30px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .categories{
     margin-bottom: 100px;
@@ -97,6 +101,7 @@
     height: auto;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .categories1{
     width: 200px;
@@ -114,12 +119,14 @@
 .text6{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .text7{
     margin-top: 10px ;
     font-size: 10px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .categories2{
     margin: 0px 0px 0px 10px;
@@ -144,6 +151,7 @@
     font-size: 10px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .categories3{
     margin: 0px 0px 0px 10px;
@@ -162,12 +170,14 @@
 .text12{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .text13{
     margin-top: 10px ;
     font-size: 10px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .categories4{
     margin:0px 10px;
@@ -186,17 +196,20 @@
 .text15{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .text16{
     margin-top: 10px ;
     font-size: 10px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .top{
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     font-size: 30px;
 }
 .list{
@@ -236,6 +249,7 @@
     margin: 20px 10px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 .content4{
@@ -274,6 +288,7 @@
     margin: 20px 10px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 .content9{
@@ -312,6 +327,7 @@
     margin: 20px 10px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 .content13{
@@ -350,6 +366,7 @@
     margin: 20px 10px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 .content18{
@@ -389,6 +406,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .content23{
     padding: 1px;
@@ -427,6 +445,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .content28{
     padding: 1px;
@@ -443,6 +462,7 @@
     color: black;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .popular{
     margin-bottom: 100px;
@@ -724,6 +744,7 @@
 .offers11{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .one1{
     margin-top:5px ;
@@ -942,5 +963,6 @@
     padding: 1px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     color: rgba(245, 245, 245, 0.59);
 }
