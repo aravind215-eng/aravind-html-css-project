@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 .chat{
-    width: auto;
-    height: 50px;
+    width: 100%;
+    height: auto;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.577);
     background-color: white;
     position: sticky;
@@ -16,6 +16,7 @@
 .head{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 10px;
 }
 .box1{
@@ -53,8 +54,8 @@
 }
 .title{
     padding: 30px;
-    width: auto;
-    height: 200px;
+    width: 100%;
+    height: auto;
     background-color: rgba(255, 68, 0, 0.919);
     margin-bottom: 50px;
     
@@ -92,7 +93,7 @@
 }
 .categories{
     margin-bottom: 100px;
-    width: auto;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -690,10 +691,12 @@
     color: black;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .Offers{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 .offers1{
@@ -823,8 +826,8 @@
     font-size: 10px;
 }
 .end{
-    width: auto;
-    height: 200px;
+    width: 100%;
+    height: auto;
     background-color: rgba(0, 0, 0, 0.91);
     color: aliceblue;
     margin-bottom: 2px;
@@ -832,7 +835,7 @@
 .extra{
     display: flex;
     justify-content: center;
-
+    flex-wrap: wrap;
 }
 .end1{
     padding: 0px 0px 0px 20px ;
@@ -936,7 +939,7 @@
     margin-top: 10px;
 }
 .footer{
-    padding: 0px;
+    padding: 1px;
     display: flex;
     justify-content: center;
     color: rgba(245, 245, 245, 0.59);
